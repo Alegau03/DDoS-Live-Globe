@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Node / Vite
+node_modules/
+frontend/.env.local
+frontend/dist/
+
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+
+# App data/model (generati a runtime)
+backend/.env
+backend/data/
+backend/app/ml/model_store/
+
+# Logs
+*.log
+
